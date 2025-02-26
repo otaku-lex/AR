@@ -24,10 +24,16 @@
     sourceWidth= "800" sourceHeight= "600"
     displayWidth= "1280" displayHeight="720" >
 
+    <a-assets>
+        <img id="pic2" src="assets/images/pic2.jpg">
+      </a-assets> 
+    
 		<a-marker preset="Hiro" size= "0.08">
 
-			<a-box position='0 0 0' rotation='0 0 0' scale='1 1 1' color='#FD5D3B' material='opacity: 1;'></a-box>
-            <a-box position='0 0 0' rotation='45 0 0' scale='1.5 1.5 1.5' color='#FD5D3B' material='opacity: 0.5;'></a-box>
+			
+                <a-image src="#pic2" rotation="270 0 0" width="2" height="2"></a-image>
+              
+         
 		</a-marker>
 
 		<a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
